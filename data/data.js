@@ -15,4 +15,3 @@ export function setCallback(newCallback){
     callback = newCallback;
 }
 
-expo
