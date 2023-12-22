@@ -1,4 +1,6 @@
-import { data } from "./data/data.js";
 import { renderCounter } from "./components/counter/renderCounter.js";
+import { setCallback } from "./data/data.js";
 
-renderCounter(data)
+renderCounter()
+
+setCallback(renderCounter);

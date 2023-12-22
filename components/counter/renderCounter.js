@@ -4,10 +4,10 @@ import {Button} from './button/Button.js'
 
 
 
-export function renderCounter(data) {
+export function renderCounter() {
     document.body.innerHTML = '';
 
     document.body.append(Header());
-    document.body.append(Counter(data.counter));
+    document.body.append(Counter());
     document.body.append(Button());
 }

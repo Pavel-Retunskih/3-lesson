@@ -1,5 +1,6 @@
-export function Counter(counter){
+import {data} from "../../../data/data.js";
+export function Counter(){
     const element = document.createElement('p');
-    element.append(counter)
+    element.append(data.counter)
     return element
 }
